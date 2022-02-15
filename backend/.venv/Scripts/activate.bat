@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=F:\gdsc\REST\Team5RestProject\backend\.venv
+set VIRTUAL_ENV=C:\Users\vladv\OneDrive\Desktop\GDSC things\resttraining\Team5RestProject\backend\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
