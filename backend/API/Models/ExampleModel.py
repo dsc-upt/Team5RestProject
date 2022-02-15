@@ -5,4 +5,4 @@ class Video(models.Model):
     Title = models.CharField(max_length=256)
     Description = models.TextField()
     URL = models.URLField()
-    Category = models.ForeignKey()
+    Category = models.ForeignKey(Category, on_delete=models.CASCADE)
